@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 24px;
+}
+
+.nav {
+    float: right;
+}
+
+.nav a {
+    color: #fdfdfd;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #f4eae9;
+}
+
+.hero {
+    background: url('https://tse4.mm.bing.net/th?id=OIP.xddyM5Z5llwe5nz0xAnhvAHaD_&pid=Api&P=0&h=180') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #030303;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px #6a5b5b;
+}
+
+.hero p {
+    font-size: 24px;
+    text-shadow: 2px 2px 5px #6e6464;
+}
+
+.about, .projects, .contact {
+    padding: 50px 0;
+    background-color: #fdf9f9;
+}
+
+.about {
+    background: url('https://tse3.mm.bing.net/th?id=OIP.BptG8qUEAHi_AxsKqjWvDQHaEK&pid=Api&P=0&h=180') no-repeat center center/cover;
+    color: #ffffff;
+}
+
+.projects {
+    background: url('https://tse4.mm.bing.net/th?id=OIP.Kx1io6nrbNNysJ2ROpsBSAHaEK&pid=Api&P=0&h=180') no-repeat center center/cover;
+    color: #000000;
+}
+
+.contact {
+    background: url('https://tse4.mm.bing.net/th?id=OIP.XtY88UPd9Syy-uz8aWlrdgHaCN&pid=Api&P=0&h=180') no-repeat center center/cover;
+    color: #ffffff;
+}
+
+.about h2, .projects h2, .contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.project-grid {
+    display: flex;
+    gap: 400px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 250, 250, 0.1);
+    width: calc(33.333% - 20px);
+}
+
+.project-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 16px;
+}
+
+.contact a {
+    color: #76f309;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
